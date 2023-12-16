@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gerador.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Password Generator Js - Codded By Leozera</h1>
+    </header>
+    <section class="container">
+        <input type="text" id="passwordInput" disabled>
+        <div>
+            <input type="range" id="inputLength" min="5" max="25" value="15">
+            <label for="inputLength"></label>
+        </div>
+        <div>
+            <input type="checkbox" id="letrasMinusculas">
+            <label for="letrasMinusculas">Letras minúsculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="letrasMaiusculas">
+            <label for="letrasMaiusculas">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="numeros">
+            <label for="numeros">Números</label>
+        </div>
+        <div>
+            <input type="checkbox" id="simbolos">
+            <label for="simbolos">Símbolos</label>
+        </div>
+        <button id="generateBtn">Gerar</button>
+    </section>
+</body>
+</html>
